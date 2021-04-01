@@ -1,0 +1,11 @@
+.box:nth-child(2) {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0.2s, opacity 0.2s;
+}
+
+.box:nth-child(2).visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.25s;
+}

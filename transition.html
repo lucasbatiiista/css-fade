@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fade - Transition</title>
+
+  <!-- styles -->
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="./styles/transition.css">
+
+
+
+</head>
+
+<body>
+
+  <a href="index.html">voltar</a>
+
+  <h1>Fade (Transition)</h1>
+
+  <p>Ideal para objetos absolute, pois mesmo depois de oculto permanece ocupando espaço</p>
+
+  <button onclick="handleVisibility()">show/hide box 2</button>
+
+  <div>
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+  </div>
+
+  <script>
+    function handleVisibility() {
+      document.querySelector('.box:nth-child(2)').classList.toggle('visible')
+    }
+  </script>
+
+</body>
+
+</html>

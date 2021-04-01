@@ -1,0 +1,44 @@
+.box:nth-child(2) {
+  animation-name: fadeOut;
+  animation-fill-mode: forwards;
+  animation-duration: 0.5s;
+}
+
+.box:nth-child(3) {
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+}
+
+@keyframes fadeIn {
+  1% {
+    position: absolute;
+    top: -9999px;
+    visibility: hidden;
+    opacity: 0;
+  }
+  1.01% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  1% {
+    visibility: visible;
+    opacity: 1;
+  }
+  99.99% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  100% {
+    position: absolute;
+    top: -9999px;
+    visibility: hidden;
+    opacity: 0;
+  }
+}

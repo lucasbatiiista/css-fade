@@ -1,0 +1,21 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  background: #c3c3c3;
+}
+
+.box:nth-child(1) {
+  background: red;
+}
+
+.box:nth-child(2) {
+  background: yellow;
+}
+
+.box:nth-child(3) {
+  background: green;
+}
