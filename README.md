@@ -1,5 +1,5 @@
 # CSS Fade
-FadeIn and FadeOut with animation and transition
+Fade In and Fade Out with animation and transition
 
 ## Transition
 
